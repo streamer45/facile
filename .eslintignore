@@ -1,0 +1,7 @@
+node_modules/
+build/
+test/
+examples/
+build.js
+*.dev.js
+*.min.js
