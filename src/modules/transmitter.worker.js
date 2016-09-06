@@ -85,7 +85,7 @@ class TransmitterWorker {
       postMessage({channel: channel});
     });
     tx.on('disconnect', (msg) => {
-      postMessage({type: 'disconnect', msg: msg});
+      postMessage({type: 'disconnect'});
     });
     tx.on('err', (e) => {
       postMessage({type: 'error', err: e});
