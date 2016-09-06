@@ -8,11 +8,13 @@ Facile.Audio is an easy to use library for live audio streaming from a web brows
 
 ## How easy?
 
+### Embed
+
 ```html
 <script src="https://facile.audio/dist/facile-audio.js"></script>
 ```
 
-Transmit
+### Transmit
 ```js
 var tx = new facile.Tx();
 tx.start().then(function(channel) {
@@ -22,7 +24,7 @@ tx.start().then(function(channel) {
 });
 ```
 
-Receive
+### Receive
 ```js
 var rx = new facile.Rx(channel);
 rx.start().then(function() {
