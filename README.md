@@ -36,7 +36,7 @@ rx.start().then(function() {
 
 ## API
 
-See the [API Reference](https://github.com/FacileAudio/facile/API.md).
+See the [API Reference](https://github.com/FacileAudio/facile/blob/master/API.md).
 
 ## FAQ
 
