@@ -46,6 +46,15 @@ Visit the [FAQ Section](https://facile.audio/#!/faq).
 
 You can find a live demo right on the project [homepage](https://facile.audio).
 
+## Development
+
+### Building the library
+
+```sh
+$ npm install
+$ npm run build
+```
+
 ## Supporting Facile.Audio
 
 There are several benefits in supporting the project. Take a look at the [Support section](https://facile.audio/#!/support).
